@@ -1,0 +1,9 @@
+steps:
+  - name: sysinfo
+    run: uname -a
+
+  - name: hello
+    run: echo "Bayta CI is alive"
+
+  - name: date
+    run: date
